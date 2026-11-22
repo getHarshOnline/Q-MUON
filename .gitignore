@@ -1,0 +1,48 @@
+# Rust
+/kernel/target/
+/daemon/target/
+
+# Python
+__pycache__/
+*.egg-info/
+.venv/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Node
+node_modules/
+
+# LaTeX build artifacts
+paper/*.pdf
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out
+paper/*.toc
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.synctex.gz
+paper/figures/pdf/*.aux
+paper/figures/pdf/*.log
+paper/sections/*.aux
+paper/appendices/*.aux
+
+# IDE / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+.claude/
+
+# Environment
+.env
+venv/
+env/
+
+# Backup
+*~
+*.backup
+*.bak
